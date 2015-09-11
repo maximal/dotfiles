@@ -48,7 +48,8 @@ endif
 " Табы всегда заменяем четырьмя пробелами.
 set tabstop=4
 set shiftwidth=4
-set expandtab
+"set expandtab
+set noexpandtab
 " Если этого в каком-то файле не требуется, дописываем в начало строку вида
 " /* vi:set ts=8:set noexpandtab: */
 set modeline
