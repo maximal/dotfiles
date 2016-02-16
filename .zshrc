@@ -147,6 +147,14 @@ alias suod='echo "zsh: Rule #2) Think before you type."; sudo -k'
 alias sauu='sudo apt-get update; sudo apt-get upgrade'
 alias saud='sudo apt-get update; sudo apt-get dist-upgrade'
 alias sagi='sudo apt-get install'
+alias ssar='sudo service apache2 restart'
+alias ssnr='sudo service nginx restart'
+alias ssmr='sudo service mysql restart'
+alias ssanr='sudo service apache2 restart; sudo service nginx restart'
+
+
+### Прочие алиасы
+alias optipng='optipng -o7 -zm1-9'
 
 
 ###############################################################
