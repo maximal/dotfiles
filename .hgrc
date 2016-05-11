@@ -1,0 +1,33 @@
+## Общие настройки
+[ui]
+username = maximal
+# Сменить имя пользователя на свой Сиджеко-логин
+# Файл положить в домашний каталог пользователя
+# Windows 7: C:\Users\Имя Пользователя\mercurial.ini
+# Unix: $HOME/.hgrc
+#
+
+
+## Отпечатки сертификатов разных серверов
+[hostfingerprints]
+# Отпечаток сертификата сервера dev.sijeko.net (устарел)
+# dev.sijeko.net = fd:f9:26:29:5b:58:9b:59:3b:d7:30:55:20:1e:56:ed:37:e7:4b:9a
+
+
+## Разные полезные расширения для Меркуриала
+[extensions]
+extdiff =
+churn =
+color =
+convert =
+graphlog =
+hgk =
+highlight =
+# progress =
+purge =
+mq =
+
+
+## Настройки Tortoise HG
+[tortoisehg]
+ui.language = ru
