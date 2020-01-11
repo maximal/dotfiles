@@ -157,6 +157,10 @@ alias ssanr='sudo service apache2 restart; sudo service nginx restart'
 
 ### Прочие алиасы
 alias optipng='optipng -o7 -zm1-9'
+alias mime='file --mime'
+alias phps='xdg-open http://localhost:6789 && php -S 0.0.0.0:6789'
+alias  x='exa --long --group --header --classify --git --all'
+alias xt='exa --long --group --header --classify --git --all --tree --level 2'
 
 
 ###############################################################
