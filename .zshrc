@@ -161,6 +161,13 @@ alias mime='file --mime'
 alias phps='xdg-open http://localhost:6789 && php -S 0.0.0.0:6789'
 alias  x='exa --long --group --header --classify --git --all'
 alias xt='exa --long --group --header --classify --git --all --tree --level 2'
+alias dfh='df -h'
+
+alias doc='docker compose'
+alias docb='docker compose build'
+alias docbp='docker compose build --pull'
+alias docu='docker compose up'
+alias docud='docker compose up -d'
 
 
 ###############################################################
