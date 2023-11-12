@@ -12,18 +12,23 @@
 [core]
 	quotepath = false
 	sharedRepository = group
+
 [merge]
 	log = 32
 	renamelimit = 16384
 	renormalize = true
+
 [push]
 	default = current
+
 [log]
 	date = iso
+
 [color]
 	diff = auto
 	status = auto
 	branch = auto
+
 [alias]
 	amend = commit --amend
 	b = branch
@@ -40,7 +45,13 @@
 	ru = remote update
 	st = status
 	unstage = reset HEAD
+
 [filter "sed"]
 	clean = sed -f %f.sed
+
 [filter "xsltproc"]
 	clean = xsltproc %f.xslt %f
+
+[diff "lockb"]
+	textconv = bun
+	binary = true
