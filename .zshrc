@@ -134,40 +134,39 @@ alias lsd='ls -ld *(-/DN)'
 alias lsa='ls -ld .*'
 
 
-### Синтаксическая подсветка диффов в subversion
-if test -x "`which colordiff`"; then
-    alias svn-diff='svn diff --diff-cmd colordiff'
-else
-    alias svn-diff='svn diff'
-fi
-
-
 ### Алиасы для администратора
 alias suod='echo "zsh: Rule #2) Think before you type."; sudo -k'
 alias sauu='sudo apt update; sudo apt upgrade'
-alias saud='sudo apt update; sudo apt dist-upgrade'
+alias saud='sudo apt update; sudo apt full-upgrade'
+alias sauf='sudo apt update; sudo apt full-upgrade'
 alias sagi='sudo apt install'
-#### Рестарты серверов
-alias ssar='sudo service apache2 restart'
+alias ыфгв='sudo apt update; sudo apt full-upgrade'
+alias ыфга='sudo apt update; sudo apt full-upgrade'
+#### Рестарты сервисов
 alias ssnr='sudo service nginx restart'
 alias ssmr='sudo service mysql restart'
-alias ssamr='sudo service apache2 restart; sudo service mysql restart'
-alias ssanr='sudo service apache2 restart; sudo service nginx restart'
+alias sspr='sudo service postgresql restart'
+alias ssnmr='sudo service nginx restart ; sudo service mysql restart'
+alias ssnpr='sudo service nginx restart ; sudo service postgresql restart'
 
+# OptiPNG
+alias optipng='optipng -o7 -zm1-9'
+
+# Docker Compose
+alias doc='docker compose'
+alias docb='docker compose build'
+alias docbp='docker compose build --pull'
+alias docu='docker compose up'
+alias docub='docker compose up --build'
+alias doce='docker compose exec'
 
 ### Прочие алиасы
-alias optipng='optipng -o7 -zm1-9'
 alias mime='file --mime'
 alias phps='xdg-open http://localhost:6789 && php -S 0.0.0.0:6789'
 alias  x='exa --long --group --header --classify --git --all'
 alias xt='exa --long --group --header --classify --git --all --tree --level 2'
 alias dfh='df -h'
-
-alias doc='docker compose'
-alias docb='docker compose build'
-alias docbp='docker compose build --pull'
-alias docu='docker compose up'
-alias docud='docker compose up -d'
+alias diff='diff --color=auto'
 
 
 ###############################################################
