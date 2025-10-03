@@ -167,6 +167,7 @@ alias  x='exa --long --group --header --classify --git --all'
 alias xt='exa --long --group --header --classify --git --all --tree --level 2'
 alias dfh='df -h'
 alias diff='diff --color=auto'
+alias grep='grep --color=auto'
 
 
 ###############################################################
