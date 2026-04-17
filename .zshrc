@@ -149,8 +149,9 @@ alias sspr='sudo service postgresql restart'
 alias ssnmr='sudo service nginx restart ; sudo service mysql restart'
 alias ssnpr='sudo service nginx restart ; sudo service postgresql restart'
 
-# OptiPNG
+# OptiPNG, OxiPNG
 alias optipng='optipng -o7 -zm1-9'
+alias oxipng='oxipng --opt=max --strip=safe -vvv'
 
 # Docker Compose
 alias doc='docker compose'
