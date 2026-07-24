@@ -134,6 +134,10 @@ alias lsd='ls -ld *(-/DN)'
 alias lsa='ls -ld .*'
 
 
+
+###############################################################
+### Локальные определения, алиасы, и т.п.
+
 ### Алиасы для администратора
 alias suod='echo "zsh: Rule #2) Think before you type."; sudo -k'
 alias sauu='sudo apt update; sudo apt upgrade'
@@ -149,10 +153,6 @@ alias sspr='sudo service postgresql restart'
 alias ssnmr='sudo service nginx restart ; sudo service mysql restart'
 alias ssnpr='sudo service nginx restart ; sudo service postgresql restart'
 
-# OptiPNG, OxiPNG
-alias optipng='optipng -o7 -zm1-9'
-alias oxipng='oxipng --opt=max --strip=safe -vvv'
-
 # Docker Compose
 alias doc='docker compose'
 alias docb='docker compose build'
@@ -160,6 +160,10 @@ alias docbp='docker compose build --pull'
 alias docu='docker compose up'
 alias docub='docker compose up --build'
 alias doce='docker compose exec'
+
+# OptiPNG, OxiPNG
+alias optipng='optipng -o7 -zm1-9'
+alias oxipng='oxipng --opt=max --strip=safe -vvv'
 
 ### Прочие алиасы
 alias mime='file --mime'
@@ -169,7 +173,4 @@ alias xt='exa --long --group --header --classify --git --all --tree --level 2'
 alias dfh='df -h'
 alias diff='diff --color=auto'
 alias grep='grep --color=auto'
-
-
-###############################################################
-### Локальные определения, алиасы, и т.п.
+alias ffmpeg='ffmpeg -hide_banner'
