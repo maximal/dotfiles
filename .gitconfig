@@ -1,14 +1,20 @@
 # ~/.gitconfig
-# vi: set noexpandtab tabstop=8:
-# encoding: utf-8
+# vi: set noexpandtab tabstop=4:
 
 ### PRIVATE SECTION ###
 [user]
 	name = maximal
-#	name = Vladimir Savochkin
-#	email = savochkin.v@gmail.com
+#	name = User Name
+#	email = name@example.com
+#	signingkey = ~/.ssh/id_ed25519.pub
+
+[commit]
+#	gpgsign = true
 
 ### PUBLIC SECTION ###
+[gpg]
+	format = ssh
+
 [core]
 	quotepath = false
 	sharedRepository = group
