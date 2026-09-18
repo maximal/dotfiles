@@ -1,7 +1,7 @@
 # ~/.zshenv: user-specific file for zsh(1).
 # Global Order: zshenv, zprofile, zshrc, zlogin
 
-export GIT_CEILING_DIRECTORIES="/:/etc:/home:$HOME:$HOME/projects"
+export GIT_CEILING_DIRECTORIES="/:/etc:/home:$HOME:$HOME/project"
 
 # I want to manage system-wide virtual domains when I allowed to.
 groups | grep libvirt > /dev/null \
